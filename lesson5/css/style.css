@@ -1,0 +1,31 @@
+.wrapper {  
+    width: 1500px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.brand {
+    padding: 37px;
+}
+.menu {
+    padding: 48px 272px;
+}
+.menu__items {
+    display: flex;
+}
+.menu__item {
+    font-family: "Roboto";
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    margin-right: 40px;
+}
+.menu__item: :last-child {
+    margin-right: 0px;
+}
+.menu a:hover {
+    text-decoration: underline blue;
+}
