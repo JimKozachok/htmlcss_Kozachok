@@ -50,11 +50,20 @@ background-color: white;
 border-color: white;
 }
 .brand__btn-signup{
+width: 58px;
+height: 24px;
+font-family: Roboto;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
 width: 120px;
 height: 59.65px;
 background: #33A2E0;
 border-radius: 6px;
-border-color: white;
+
 }
 .about {
     display: flex;
@@ -101,4 +110,12 @@ margin: 0px 100px;
     background: #33A2E0;
     border-radius: 6px;
     border-color: #33A2E0;
+    position: absolute;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
