@@ -8,17 +8,15 @@
 }
 a {
     text-decoration: none;
-    color: inherit;
+     color: inherit;
 }
 ul {
     list-style: none;
 }
-.brand {
+    .brand {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 37px; */
-
     padding: 30px 0;
 }
 .brand_logo {
@@ -28,45 +26,53 @@ ul {
     text-decoration: underline blue;
 }
 .menu__items {
-display: flex;
-margin-right: 750px;
+    display: flex;
+    width: 45px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    margin-right: 750px;
 }
 .menu__item {
-margin-right: 40px;
+    margin-right: 40px;
 }
 .buttons :hover {
-text-decoration: underline blue;
+    text-decoration: underline blue;
 }
 .brand__btn-signin{
-font-family: Roboto;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-letter-spacing: 0.02em;
-color: #1B0A42;
-background-color: white;
-border: none;
-font-style: normal;
-font-weight: normal;
-margin-right: 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    background-color: white;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    margin-right: 30px;
 }
 .brand__btn-signup{
-width: 58px;
-height: 24px;
-font-family: Roboto;
-font-weight: bold;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-width: 120px;
-height: 59.65px;
-background: #33A2E0;
-border-radius: 6px;
-border: none;
-font-style: normal;
-font-weight: normal;
+    width: 58px;
+    height: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 120px;
+    height: 59.65px;
+    background: #33A2E0;
+    border-radius: 6px;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
 }
 .about {
     display: flex;
@@ -82,27 +88,27 @@ font-weight: normal;
     margin-right: 20px;
 }
 .about__item-title {
-font-family: Ramaraja;;
-font-size: 72px;
-line-height: 76px;
-letter-spacing: 0.02em;
-color: #1B0A42;
+    font-family: Ramaraja;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
 }
 .about__item-text {
-width: 583.48px;
-height: 96px;
-left: 200px;
-top: 442.71px;
-font-family: Roboto;
-font-size: 20px;
-line-height: 32px;
-letter-spacing: 0.02em;
-color: #9A9A9A;
+    width: 583.48px;
+    height: 96px;
+    left: 200px;
+    top: 442.71px;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
 }
 .about_img{
-width: 796px;
-height: 543px;
-margin: 0px 100px;
+    width: 796px;
+    height: 543px;
+    margin: 0px 100px;
 }
 .brand__btn-learnmore {
     margin: 40px 0px;
