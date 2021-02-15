@@ -1,0 +1,51 @@
+
+.header { 
+    width: auto;
+    height: 50px;
+    margin: 0 auto;
+    background: rgb(152, 250, 152);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-size: 15;
+    font-family: "Times New Roman";
+    font-weight: bold
+
+}
+.form1{
+    width: 400px;
+    margin-right: 100px;
+}
+.required:after {
+    content: '*';
+    color: red;
+}
+
+label {
+    width: 200px;
+    display: inline-block;
+    margin-top: 15px;
+}
+input{
+    margin-bottom: 15px;
+}
+textarea{
+    margin: -15px 110px;
+    margin-bottom: 10px;
+}
+.form2{
+    width: 400px;
+}
+.form2_inner {
+    display: inline-block;
+    width: 300px;
+}
+.footer{
+    width: auto;
+    height: 50px;
+    background: rgb(152, 250, 152);
+    text-align: center;
+}
