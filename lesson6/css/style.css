@@ -27,10 +27,10 @@
 label {
     width: 200px;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 input{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 textarea{
     margin: -15px 110px;
@@ -43,9 +43,30 @@ textarea{
     display: inline-block;
     width: 300px;
 }
+.p{
+    margin-right: 30px;
+}
 .footer{
-    width: auto;
-    height: 50px;
-    background: rgb(152, 250, 152);
+    height: 40px;
+    background: rgb(181, 185, 181);
     text-align: center;
+    position: fixed;
+    left: 0; bottom: 0; 
+    padding: 10px; 
+    width: 100%; 
+}
+button {
+    width: 60px;
+    height: 10 px;
+    background: #42a84b;
+    border-color: none;
+    border:none;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 20px;
 }
