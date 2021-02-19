@@ -271,9 +271,10 @@ body {
 
 .price__inner{
     align-items: center;
-    text-align: center;
+   
 }
 .price__title{
+    text-align: center;
     font-family: Inter;
     font-weight: 900;
     font-size: 64px;
@@ -282,7 +283,6 @@ body {
 }
 
 .price__pay{
-    align-items: center;
     text-align: center;
     font-family: Inter;
     font-weight: bold;
@@ -292,10 +292,12 @@ body {
 }
 
 .price__text{
+   
 color: #ADADAD;
 }
 
 .price__month{
+
 color: #6C5CE7;
 }
 .month{
@@ -326,8 +328,7 @@ color: #6C5CE7;
     color: #6C5CE7;
 }
 .price__item_top_pussy{
-    align-items: center;
-    text-align: center;
+
     width: auto;
 }
 .forever{
@@ -367,7 +368,6 @@ color: #6C5CE7;
     font-weight: bold;
     font-size: 18px;
     line-height: 32px;
-    align-items: center;
     letter-spacing: 0.2px;
     color: #6C5CE7;
 }
@@ -377,12 +377,10 @@ color: #6C5CE7;
     right: 0px;
     top: 48px;
     font-family: Inter;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 56px;
     display: flex;
-    align-items: center;
     letter-spacing: -1px;
     color: #2D3436;
 }
@@ -399,8 +397,8 @@ color: #6C5CE7;
     font-size: 18px;
     line-height: 32px;
     color: white;
-
-}.price__corporate_btn {
+}
+.price__corporate_btn {
     background: white;
     border-radius: 16px;
     width: 200px;
