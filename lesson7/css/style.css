@@ -70,7 +70,6 @@ body {
 
 .header__menu-link:hover {
     font-weight: bold;
-    /* letter-spacing: 0.2px; */
     color: #2D3436;
 }
 
@@ -90,15 +89,11 @@ body {
 }
 
 .header__sign-in {
-    /* text */
     font-weight: bold;
     font-size: 24px;
-    /* line-height: 36px; */
     letter-spacing: 0.25px;
     color: #FFFFFF;
     text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
-
-    /* button */
     border: none;
     outline: none;
     cursor: pointer;
@@ -107,9 +102,96 @@ body {
     padding: 18px 45px;
 }
 
+ /*main*/
 
-/* ORDER */
+.main {
+    background-image: url('../img/underheader/Rectangle.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    box-shadow: 0px 2px 3px rgba(38, 50, 56, 0.26) inset;
+    height: 600px;
+   }
+.main__inner {
+    padding: 90px 0;
+    position: relative;
+}
+.main__title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 104px;
+    letter-spacing: -3px;
+    text-shadow: 0px 4px 0px #FFFFFF;
+    margin-bottom: 15px;
+}
 
+.main__title-word {
+    color: #D63031;
+}
+.main__title-bottom {
+    position: absolute;
+    height: 102px;
+    width: 700px;
+    left: 23.26%;
+    right: 24.31%;
+    top: 296px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #2D3436;
+}
+
+.main__text-left{
+    position: absolute;
+    height: 102px;
+    width: 270px;
+    left: 9.38%;
+    right: 71.88%;
+    top: 390px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D3436;
+    }
+    .main__text-bg {
+    padding: 55px 30px;
+    background: #55EFC4;
+    border-radius: 999px;
+    position: absolute;
+    right: 0;
+    top: 430px;
+    }
+    
+    .main__text-right {
+    width: 363px;
+    font-size: 22px;
+    }
+    .main__btn{
+    position: absolute;;
+    background: #6C5CE7;
+    border-radius: 999px;
+    border: none;
+    bottom: 8px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    height: 82px;
+    left: 11.46%;
+    right: 69.79%;
+    top: 510px;
+    }
 .order {
     padding: 80px 0;
 }
@@ -185,6 +267,151 @@ body {
     border-radius: 16px;
     padding: 5px 20px;
 }
+            /*PRICE*/
+
+.price__inner{
+    align-items: center;
+    text-align: center;
+}
+.price__title{
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -1px;
+}
+
+.price__pay{
+    align-items: center;
+    text-align: center;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+}
+
+.price__text{
+color: #ADADAD;
+}
+
+.price__month{
+color: #6C5CE7;
+}
+.month{
+    content: "";
+    position: absolute;
+    width: 126px;
+    height: 12px;
+    left: calc(50% - 126px/2);
+    border-radius: 10px;
+    z-index: -1;
+    background-color: #FDCB6E;
+}
+.price__list {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items : stretch;
+}
+
+.price__item_top{
+    height: 32px;
+    right: 90px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #6C5CE7;
+}
+.price__item_top_pussy{
+    align-items: center;
+    text-align: center;
+    width: auto;
+}
+.forever{
+    font-size: 14px;
+}
+.condition{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.condition_items{
+    align-items: flex-start;
+    display: flex;
+    height: 40px;
+    left: 48px;
+    right: 0px;
+    top: 128px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D3436;
+}
+.price__btn {
+    background: white;
+    border-radius: 16px;
+    width: 200px;
+    height: 64;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.person{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #6C5CE7;
+}
+.individual_text{
+    height: 56px;
+    left: 0px;
+    right: 0px;
+    top: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #2D3436;
+}
+.individual_price{
+    font-size: 14px;
+}
+.price__individual_btn {
+    background: #6C5CE7;
+    border-radius: 16px;
+    width: 200px;
+    height: 64;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+
+}.price__corporate_btn {
+    background: white;
+    border-radius: 16px;
+    width: 200px;
+    height: 64;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #6C5CE7;
+}
+
 
 @media (max-width: 360px) {
     .container {
@@ -228,40 +455,20 @@ body {
         border-radius: 8px;
         padding: 10px 30px;
     }
-       /* MAIN */
+    .free{
+        height: 56px;
+        left: 0px;
+        right: 0px;
+        top: 48px;
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        align-items: center;
+        letter-spacing: -1px;
+        color: #2D3436;
 
-    
-       .main {
-        background-image: url('../img/underheader/Rectangle.png');
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        box-shadow: 0px 2px 3px rgba(38, 50, 56, 0.26) inset;
-        height: 600px;
-       }
-
-    
-    .main__inner {
-        padding: 90px 0;
-        position: relative;
     }
-    
-    .main__title {
-        text-align: center;
-        font-weight: 800;
-        font-size: 96px;
-        line-height: 104px;
-        letter-spacing: -3px;
-        text-shadow: 0px 4px 0px #FFFFFF;
-    
-        margin-bottom: 15px;
-    }
-    
-    .main__title-word {
-        color: #D63031;
-    }
-    
-}
-
     /* ORDER */
 
     .order__title {
