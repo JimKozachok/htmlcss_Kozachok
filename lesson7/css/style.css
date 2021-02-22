@@ -398,7 +398,7 @@ color: #6C5CE7;
     background: #6C5CE7;
     border-radius: 16px;
     width: 200px;
-    height: 64;
+    
     font-family: Inter;
     font-weight: bold;
     font-size: 18px;
@@ -693,7 +693,7 @@ color: #6C5CE7;
         width: 330px;
         height: 96px;
     }
-    .price__list-item{
+    .price__list{
       flex-direction: column;
     }
 }
