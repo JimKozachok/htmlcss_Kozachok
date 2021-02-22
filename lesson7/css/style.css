@@ -429,6 +429,7 @@ color: #6C5CE7;
     background-image: url('../img/footer/Wave2.png');
     background-repeat: no-repeat;
     background-position: center bottom;
+    
 }
 .footer_title{
 font-family: Inter;
@@ -508,6 +509,16 @@ letter-spacing: -0.5px;
 color: #6C5CE7;
 }
 
+.hidden_footer_text1{
+    display: none;
+} 
+.hidden_footer_text2{
+    display: none;
+} 
+.footer__follow-email2 {
+   display: none;
+}
+
 @media (max-width: 400px) {
     .container {
         max-width: 380px;
@@ -541,7 +552,7 @@ color: #6C5CE7;
     }
 
     .header__menu {
-        display: none;
+        visibility: hidden;
     }
 
     .header__sign-in {
@@ -567,8 +578,6 @@ color: #6C5CE7;
         background-image: url('../img/underheader/Rectangle2.svg');
         background-repeat: no-repeat;
         background-position:center top;
-
-           
     }
             .main__text-left{
                 display: none;
@@ -595,14 +604,12 @@ color: #6C5CE7;
                 color: #2D3436;
                 height: 90px;
                 width: 300px;
-                
             }
             .arrow{
                 position: absolute;
                 display: inline;
                 left: 100px;
                 top:400px;
-                
             }
             .condition{
                 display: flex;
@@ -682,18 +689,68 @@ color: #6C5CE7;
         border-radius: 10px;
         margin-bottom: 40px;
     }
-    /*Price*/
-    .individual{
-        font-size: 24px;
-        line-height: 36px;
-        text-align: center;
-        align-items: center;
-        letter-spacing: 0.25px;
-        color: #2D3436;
-        width: 330px;
-        height: 96px;
-    }
+                
+                        /*Price*/
+    
     .price__list{
       flex-direction: column;
+    }
+    
+    .footer_title, .footer_left_top, .footer_info_list, .footer_right_top, .footer__follow-email, .wave{
+        visibility: hidden;
+    }
+
+    }
+
+    .individual{
+        margin-bottom: 50px;
+    }
+
+    .price__individual_btn, .price__btn, .price__corporate_btn{ 
+margin: 50px;
+
+    }
+
+    .footer__follow-email2{
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 48px;
+        align-items: center;
+        letter-spacing: -0.5px;
+        color: #6C5CE7;
+        visibility: visible;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hidden_footer_text1{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #2D3436;
+        visibility: visible;
+        align-items: center;
+    }
+    .hidden_footer_text2{
+        height: 48px;
+        left: 0%;
+        right: 0%;
+        top: 48px;
+        font-family: Inter;
+        font-size: 12px;
+        line-height: 22px;
+        visibility: visible;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.3px;
+        color: #00B894;
+    }
+    .web{
+        margin-bottom: 0 auto;
+        display: flex;
+        flex-direction: row;
     }
 }
