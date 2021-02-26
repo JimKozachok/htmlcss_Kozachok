@@ -349,6 +349,7 @@ background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: #2D3436;
 }
 .best{
 font-family: Inter;
@@ -419,30 +420,22 @@ z-index: 3;
     color:white;
 }
 
-.person{
+.individual_inner{
 font-family: Inter;
 font-weight: bold;
 font-size: 18px;
 line-height: 32px;
 letter-spacing: 0.2px;
-color: #6C5CE7;
+color: #2D3436;
 display: flex;
 margin-right: 90px;
-}
-.person1{
-    font-family: Inter;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 32px;
-    letter-spacing: 0.2px;
-    color: #6C5CE7;
-    display: flex;
-    margin-right: 60px;
+
+
 }
 .individual{
     align-items: center;
     text-align: left;
-z-index: 2; 
+    z-index: 2; 
 
 }
 .individual1{
@@ -462,6 +455,7 @@ box-shadow: 0px 5px 7px rgba(83, 83, 83, 0.267)
     cursor: pointer;
     box-shadow: 0px 5px 7px rgba(83, 83, 83, 0.267)
     }
+
 .individual_text{
 height: 56px;
 left: 0px;
@@ -484,6 +478,14 @@ font-size: 14px;
 margin: 0px -90px;
 bottom: 30px;
 z-index: 1; 
+}
+.person{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #6C5CE7;
 }
         /*Footer*/
 
@@ -610,9 +612,7 @@ display: none;
     }
 
     .header__menu {
-    visibility: hidden;
-    display:flex;
-
+    display: none;
     }
 
     .header__sign-in {
@@ -775,7 +775,9 @@ display: none;
    .individual_inner:hover{
     color: #55EFC4;
    }
-
+.person{
+    color: #55EFC4;
+}
 .individual:hover {
     background: #6C5CE7;
     border-radius: 16px;
@@ -835,7 +837,6 @@ display: none;
     background: white;
     color: #55EFC4;
 }
-
 
 }   
 
