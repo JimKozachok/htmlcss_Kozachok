@@ -37,6 +37,7 @@ box-shadow: 0px 2px 4px rgba(38, 50, 56, 0.26);
 .header__logo {
 display: flex;
 align-items: center;
+justify-content: space-between;
 }
 
 .header__burger {
@@ -54,11 +55,11 @@ color: #2D3436;
 .header__menu {
     display: flex;
     text-align: center;
+   
 }
 
 .header__menu-item {
     position: relative;
-    width: 115px;
     margin-right: 55px;
     font-size: 18px;
     line-height: 32px;
@@ -87,6 +88,7 @@ display: none;
 }
 
 .header__sign-in {
+position: relative;
 font-weight: bold;
 font-size: 24px;
 line-height: 36px;
@@ -176,7 +178,7 @@ font-size: 22px;
 display: none;
 }
 .main__btn{
-position: absolute;;
+position: absolute;
 background: #6C5CE7;
 border-radius: 999px;
 border: none;
@@ -304,17 +306,11 @@ justify-content: flex-start;
 
 .price__month:hover{
     color: #6C5CE7;
-    width: 100px;
-    height: 12px;
-    border-radius: 10px;
-    background-color: #FDCB6E;
+    text-decoration:underline #FDCB6E;
     }
     .price__yearly:hover{
     color: #6C5CE7;
-    width: 100px;
-    height: 12px;
-    border-radius: 10px;
-    background-color: #FDCB6E;
+    text-decoration:underline #FDCB6E;
     }
 
 .price__list {
@@ -616,14 +612,16 @@ display: none;
 
     .header__menu {
     visibility: hidden;
+    display:flex;
+
     }
 
     .header__sign-in {
     background: #6C5CE7;
     box-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
-    border-radius: 8px;
-    padding: 10px 30px;
+    border-radius: 16px;
     }
+
     .free{
     height: 56px;
     left: 0px;
