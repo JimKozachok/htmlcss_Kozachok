@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: Manrope;
+}
+.container{
+    max-width: 1130px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+.header{
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 72px;
+    }
+    &__logo{
+        margin-right: 32px;
+    }
+    &__menu{
+        display: flex;
+        margin-right: auto;
+        &-item{
+            margin-right: 32px;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px;
+            font-feature-settings: 'liga' off;
+            color: #18191F;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    &__google{
+        margin-right: 12px;
+    }
+}
+.service{
+    background-color: #0B0D17;
+    padding: 80px 0;
+    &__title{
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+        color: #FFFFFF;
+        max-width: 730px;
+        margin: 0 auto;
+        margin-bottom: 48px;
+    }
+    &__items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:30px
+    }
+    &__item{
+        padding: 40px 32px;
+        background-color: white;
+        border-radius: 8px;
+        color: #18191F;
+        &-img{
+            margin-bottom: 57px;
+        }
+        &-title{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            margin-bottom: 12px;
+        }
+        &-text{
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 40px;
+        }
+        &-link{
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 16px;
+            color: #8C30F5;
+            position: relative;
+            &::after{
+                content: "";
+                background-image: url(../img/menu/right-arrow.svg);
+                width: 15px;
+                height: 10px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                position: absolute;
+                top: 4px;
+                left: 55px;
+            }
+        }
+    }
+}
