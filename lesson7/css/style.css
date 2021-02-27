@@ -776,17 +776,17 @@ display: none;
     }
     
     .footer_title, .footer_left_top, .footer_info_list, .footer_right_top, .footer__follow-email, .wave{
-    visibility: hidden;
+    display: none;
     }
     .individual{
      margin-bottom: 50px;
      background-color: white;
+    font-size: 14px;
     }
-    .individual1{
-        margin-bottom: 50px;
-        background-color: white;
+ 
        }
    .price__btn{
+       margin-top:40px;
         background: #6C5CE7;
         color:white;
    }
@@ -805,18 +805,16 @@ display: none;
     color: #55EFC4;
    }
 .person{
-    color: #55EFC4;
+    color: #2D3436;;
 }
 .individual:hover {
     background: #6C5CE7;
     border-radius: 16px;
     color: #55EFC4;
         }
-        .individual1:hover {
-        background: #6C5CE7;
-        border-radius: 16px;
-        color: #55EFC4;
-        }
+       .individual_text{
+        color: #6C5CE7;
+       } 
     .footer__follow-email2{
         font-family: Inter;
         font-weight: bold;
@@ -867,6 +865,5 @@ display: none;
     color: #55EFC4;
 }
 
-}   
 
 
