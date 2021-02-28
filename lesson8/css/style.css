@@ -3,16 +3,91 @@
           box-sizing: border-box;
 }
 
-.wrapper {
-  width: 1600px;
-  margin: 0 auto;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.wrapper .body {
-  font-family: 'Roboto';
+ul {
+  list-style: none;
 }
 
-.wrapper .brand {
+.wraper {
+  max-width: 1600px;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__inner__logo {
+  margin-right: 32px;
+}
+
+.header__inner__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 30px;
+}
+
+.header__inner__menu-item {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1B0A42;
+}
+
+.header__inner__menu-item:last-child {
+  margin-right: 0;
+}
+
+.header__inner .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Roboto;
+  text-align: center;
+  letter-spacing: 0.02em;
+  border: none;
+}
+
+.header__inner .buttons:hover {
+  -webkit-text-decoration: underline blue;
+          text-decoration: underline blue;
+}
+
+.header__inner .buttons__btn-signin {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1B0A42;
+}
+
+.header__inner .buttons__btn_signup {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  width: 120px;
+  height: 59.65px;
+  background: #FC569A;
+  border-radius: 6px;
+}
+
+.about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,43 +97,57 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 10px;
 }
 
-.wrapper .brand__logo {
-  margin-right: 150px;
+.about__item {
+  margin: 200px;
+  width: 529px;
+  height: 456px;
+  left: 201px;
+  top: 197px;
+  margin-right: 20px;
 }
 
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.menu__items {
-  width: 45px;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
+.about__item-title {
+  font-family: Ramaraja;
+  font-size: 72px;
+  line-height: 76px;
   letter-spacing: 0.02em;
   color: #1B0A42;
-  margin-right: 750px;
 }
 
-.menu__items__item {
-  margin-right: 40px;
-}
-
-.buttons {
+.about__item-text {
+  width: 583.48px;
+  height: 96px;
+  left: 200px;
+  top: 442.71px;
   font-family: Roboto;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #9A9A9A;
+}
+
+.about_img {
+  width: 796px;
+  height: 543px;
+  margin: 0px 100px;
+}
+
+.brand__btn-learnmore {
+  margin: 40px 0px;
+  width: 152px;
+  height: 63.82px;
+  background: #FC569A;
+  border-radius: 6px;
+  border: none;
+  position: absolute;
+  font-family: Roboto;
+  font-weight: bold;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 32px;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #1B0A42;
-  background-color: white;
-  border: none;
-  margin-right: 30px;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */

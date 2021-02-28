@@ -582,16 +582,10 @@ align-items: flex-end;
 letter-spacing: -0.5px;
 color: #6C5CE7;
 }
-
-.hidden_footer_text1{
-display: none;
-} 
-.hidden_footer_text2{
-display: none;
-} 
-.footer__follow-email2 {
-display: none;
+.hidden_footer{
+    display: none;;
 }
+
 
 @media (max-width: 380px) {
     .container {
@@ -784,7 +778,7 @@ display: none;
     font-size: 14px;
     }
  
-       }
+       
    .price__btn{
        margin-top:40px;
         background: #6C5CE7;
@@ -827,7 +821,9 @@ display: none;
         align-items: center;
         text-align: center;
     }
-
+.hidden_footer{
+    display: block;
+}
     .hidden_footer_text1{
         font-weight: 500;
         font-size: 14px;
@@ -863,6 +859,7 @@ display: none;
 .price__btn:hover{
     background: white;
     color: #55EFC4;
+}
 }
 
 
