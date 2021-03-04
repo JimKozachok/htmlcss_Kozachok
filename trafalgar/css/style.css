@@ -136,6 +136,7 @@ body {
 
 .service__title-text {
   margin: 0 auto;
+  margin-top: 60px;
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
@@ -180,6 +181,15 @@ body {
   font-size: 16px;
   line-height: 28px;
   color: #7D7987;
+}
+
+.service .border-dark {
+  color: #000000;
+  position: absolute;
+  margin: 0px 665px;
+  margin-top: 25px;
+  width: 56px;
+  height: 3px;
 }
 
 .service .service__bg1 {

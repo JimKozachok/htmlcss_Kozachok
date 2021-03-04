@@ -98,6 +98,7 @@ body{
         text-align: center;
         &-text{
             margin: 0 auto;
+            margin-top: 60px;
             font-weight: 300;
             font-size: 18px;
             line-height: 30px;
@@ -136,6 +137,14 @@ body{
             color: #7D7987;
         }
     }
+    .border-dark {
+        color: #000000;
+        position: absolute;
+        margin: 0px 665px;
+        margin-top: 25px;
+        width: 56px;
+        height: 3px;
+    }
     .service__bg1{
         position: absolute;
         transform: rotate(21.46deg);
@@ -158,3 +167,4 @@ body{
     margin: 70px 550px;
     }
 }
+
