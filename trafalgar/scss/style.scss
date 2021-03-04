@@ -13,32 +13,30 @@ body{
 
 }
 .container{
-    max-width: 1420px;
+    max-width: 1250px;
     padding: 0px 10px;
+    margin: 0 auto;
 }
 .header{
-    width: 1600px;
-    position: relative;
-    margin: 0 auto;
     &__inner{
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 125px;
-        z-index: 2;
     }
     &__logo{
-        margin-right: 460px;
+        margin-right: 32px;
     }
     &__menu{
+        margin: 0px 150px;
         display: flex;
-        margin-right: auto;
         &-item{
+            display: flex;
+            margin-right: 40px;
             font-size: 18px;
             line-height: 23px;
             color: #616060;
             opacity: 0.5;
-            margin-right: 40px;
             &:last-child{
                 margin-right: 0;
             }
@@ -48,14 +46,14 @@ body{
 .header__bg{
     position: absolute;
     top:180px;
-    left:-100px;
+    left:-300px;
 }
 .about {
     display: flex;
     justify-content: center;
     align-items: center;
     &__item{
-        margin-right: 20px;
+        
         &-title{
             font-weight: bold;
             font-size: 48px;
@@ -70,10 +68,9 @@ body{
          }
     }
 }
-.about_img{
+.picture1{
     width: 693px;
     height: 598px;
-    margin: 0px 100px;
 }
 .brand__btn-consultoday {
     margin: 45px 0px;
@@ -85,11 +82,13 @@ body{
     align-items: center;
     color: #FFFFFF;
     mix-blend-mode: normal;
+    border: none;
 }
 .service{
     width: 1600px;
+    position: relative;
     margin: 0 auto;
-    margin-top: 200px;
+    top:100px;
     &__title{
         font-weight: bold;
         font-size: 36px;
@@ -139,20 +138,22 @@ body{
     }
     .border-dark {
         color: #000000;
-        position: absolute;
-        margin: 0px 665px;
+        position: relative;
+        margin: 0px auto;
         margin-top: 25px;
         width: 56px;
         height: 3px;
     }
     .service__bg1{
         position: absolute;
-        transform: rotate(21.46deg);
-        margin: 200px -340px;
+        transform: rotate(355deg);
+        left: -420px;
+        top:370px;
         }
     .service__bg2{
         position: absolute;
-        margin: 435px 1320px;
+        right: 120px;
+        top: 570px;
         }
 .menu__btn-lernmore {
     font-weight: bold;
@@ -167,4 +168,45 @@ body{
     margin: 70px 550px;
     }
 }
-
+.main {
+    width: 1600px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 220px;
+        &__inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        }
+    }
+.main__item{
+    justify-content: center;
+    align-items: center;
+        &-title{
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 56px;
+            color: #000000;
+            }
+        &-text{
+            font-weight: 300;
+            font-size: 21px;
+            line-height: 32px;    
+            color: #7D7987;
+    }
+}
+.brand__btn-learnmore{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    width: 220px;
+    height: 55px;
+}
+.picture2{
+    width:650px;
+    height:477px;
+}
