@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 a{
-    color:inherit;
+    color: inherit;
     text-decoration: none;
 }
 ul{
@@ -10,16 +10,16 @@ ul{
 }
 body{
     font-family: Mulish;
+
 }
 .container{
     max-width: 1420px;
     padding: 0px 10px;
-    margin: 0 auto;
 }
 .header{
-    background-image: url("../img/header/bg.svg");
-    background: no-repeat;
-    background-position: bottom 50px right 100px;
+    width: 1600px;
+    position: relative;
+    margin: 0 auto;
     &__inner{
         display: flex;
         justify-content: space-between;
@@ -45,7 +45,11 @@ body{
         }
     }
 }
-
+.header__bg{
+    position: absolute;
+    top:180px;
+    left:-100px;
+}
 .about {
     display: flex;
     justify-content: center;
@@ -71,21 +75,86 @@ body{
     height: 598px;
     margin: 0px 100px;
 }
-.brand__btn-learnmore {
-    margin: 48px 0px;
-    width: 152px;
-    height: 63.82px;
+.brand__btn-consultoday {
+    margin: 45px 0px;
     background: #458FF6;
-    border-radius: 55px;
-    border: none;
-    position: absolute;
-    font-family: Roboto;
+    border-radius: 55px;    
     font-weight: bold;
     font-size: 18px;
     line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.02em;
+    align-items: center;
     color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+.service{
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    &__title{
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 56px;
+        color: #000000;
+        text-align: center;
+        &-text{
+            margin: 0 auto;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 30px;
+            color: #7D7987;
+            text-align: center;
+            width: 950px;
+        }
+    }
+    &__items{
+        margin: 80px 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:35px;
+        position: relative;
+    }
+    &__item{
+        background: white;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        padding: 45px 35px;
+        &-img{
+            margin-bottom: 15px;
+        }
+        &-title{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 56px;
+            color: #000000;
+            mix-blend-mode: normal;
+            margin-bottom: 12px;
+        }
+        &-text{
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+            color: #7D7987;
+        }
+    }
+    .service__bg1{
+        position: absolute;
+        transform: rotate(21.46deg);
+        margin: 200px -340px;
+        }
+    .service__bg2{
+        position: absolute;
+        margin: 435px 1320px;
+        }
+.menu__btn-lernmore {
+    font-weight: bold;
     font-size: 18px;
     line-height: 60px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    width: 200px;
+    height: 60px;
+    margin: 70px 550px;
+    }
 }
