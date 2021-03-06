@@ -18,7 +18,7 @@ body{
 }
 .header{
     position: relative;
-    max-width: 1600px;
+    width: 1600px;
     margin: 0 auto;
     &__inner{
         display: flex;
@@ -87,7 +87,7 @@ body{
     width: 1600px;
     position: relative;
     margin: 0 auto;
-    top:100px;
+    padding: 200px 0px;
     &__title{
         font-weight: bold;
         font-size: 36px;
@@ -96,7 +96,6 @@ body{
         text-align: center;
         &-text{
             margin: 0 auto;
-            margin-top: 60px;
             font-weight: 300;
             font-size: 18px;
             line-height: 30px;
@@ -160,11 +159,10 @@ body{
     margin: 70px 500px
     }
 .main {
-    max-width: 1600px;
+    width: 1600px;
     display: flex;
     position: relative;
     margin: 0 auto;
-    margin-top: 220px;
         &__inner-top{
             display: flex;
             margin-right: 130px;
@@ -235,44 +233,64 @@ height:477px;
 width :665px;
 height :434px;
 }
-.slider{
+.testimonials{
+    flex-direction: row;
     width: 1600px;
     position: relative;
     margin: 0 auto;
-    top:260px;
-    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-    border-radius: 24px;
-    width:1120px;
-    height:425px;
-    padding: 70px;
+    padding:180px 0px ;
+    background-image:  url('/img/slider/bg_in.png');
+    background: no-repeat;
     &__inner{ 
         color: #FFFFFF;
+        background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+        border-radius: 24px;
+        width:1120px;
+        height:425px;
+        padding: 80px 70px;  
         &-title{
             font-weight: bold;
             font-size: 36px;
             line-height: 48px;
             text-align: center;
             justify-content: space-between;
+                   
         }
-        &__guy{
-            display: flex;
+    }
+    &__about{
+        display: flex;
+        margin-right: 110px;
             &-title{
+                margin-left: 20px;
+                display: flex;
                 font-weight: bold;
                 font-size: 22px;
                 line-height: 48px;
+                color: #FFFFFF;
+                display: block;
             }
             &-text{
+                display: flex;
+                display: block;
                 font-size: 18px;
                 line-height: 48px;
                 color: rgba(255, 255, 255, 0.85);
             }
+            &-story{
+            display: flex;
+            font-size: 19px;
+            line-height: 30px;
+            color: rgba(255, 255, 255, 0.9);
+            }
         }
-    }
-}
+} 
+
 .border-white{
-    margin: 0px auto;
+    margin: 25px auto;
     color: white;
-    margin-top: 25px;
     width: 56px;
     height: 3px;
+}
+.guy{
+    border-radius: 100px;
 }

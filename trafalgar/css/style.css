@@ -23,7 +23,7 @@ body {
 
 .header {
   position: relative;
-  max-width: 1600px;
+  width: 1600px;
   margin: 0 auto;
 }
 
@@ -120,7 +120,7 @@ body {
   width: 1600px;
   position: relative;
   margin: 0 auto;
-  top: 100px;
+  padding: 200px 0px;
 }
 
 .service__title {
@@ -133,7 +133,6 @@ body {
 
 .service__title-text {
   margin: 0 auto;
-  margin-top: 60px;
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
@@ -208,13 +207,12 @@ body {
 }
 
 .main {
-  max-width: 1600px;
+  width: 1600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
   margin: 0 auto;
-  margin-top: 220px;
 }
 
 .main__inner-top {
@@ -303,23 +301,29 @@ body {
   height: 434px;
 }
 
-.slider {
+.testimonials {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 1600px;
   position: relative;
   margin: 0 auto;
-  top: 260px;
+  padding: 180px 0px;
+  background-image: url("/img/slider/bg_in.png");
+  background: no-repeat;
+}
+
+.testimonials__inner {
+  color: #FFFFFF;
   background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
   border-radius: 24px;
   width: 1120px;
   height: 425px;
-  padding: 70px;
+  padding: 80px 70px;
 }
 
-.slider__inner {
-  color: #FFFFFF;
-}
-
-.slider__inner-title {
+.testimonials__inner-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 48px;
@@ -329,29 +333,52 @@ body {
           justify-content: space-between;
 }
 
-.slider__inner__guy {
+.testimonials__about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 110px;
 }
 
-.slider__inner__guy-title {
+.testimonials__about-title {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-weight: bold;
   font-size: 22px;
   line-height: 48px;
+  color: #FFFFFF;
+  display: block;
 }
 
-.slider__inner__guy-text {
+.testimonials__about-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: block;
   font-size: 18px;
   line-height: 48px;
   color: rgba(255, 255, 255, 0.85);
 }
 
+.testimonials__about-story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
 .border-white {
-  margin: 0px auto;
+  margin: 25px auto;
   color: white;
-  margin-top: 25px;
   width: 56px;
   height: 3px;
+}
+
+.guy {
+  border-radius: 100px;
 }
 /*# sourceMappingURL=style.css.map */
