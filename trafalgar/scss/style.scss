@@ -253,38 +253,34 @@ height :434px;
             font-size: 36px;
             line-height: 48px;
             text-align: center;
-            justify-content: space-between;
-                   
+            justify-content: space-between;          
         }
-    }
-    &__about{
+    }   
+}
+.testimonials__photo{
+    display: flex;
+}
+.testimonials__about{
         display: flex;
         margin-right: 110px;
             &-title{
-                margin-left: 20px;
-                display: flex;
                 font-weight: bold;
                 font-size: 22px;
                 line-height: 48px;
                 color: #FFFFFF;
-                display: block;
+                margin-left:20px ;
             }
             &-text{
-                display: flex;
-                display: block;
                 font-size: 18px;
                 line-height: 48px;
                 color: rgba(255, 255, 255, 0.85);
             }
             &-story{
-            display: flex;
             font-size: 19px;
             line-height: 30px;
             color: rgba(255, 255, 255, 0.9);
             }
         }
-} 
-
 .border-white{
     margin: 25px auto;
     color: white;
@@ -293,4 +289,14 @@ height :434px;
 }
 .guy{
     border-radius: 100px;
+}
+.bg_in{
+    position: absolute;
+    top: 446px;
+    left: -83px;
+}
+.bg_out{
+    position: absolute;
+    top: 185px;
+    right: 430px;
 }
