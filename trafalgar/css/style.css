@@ -252,15 +252,13 @@ body {
 
 .border-dark {
   color: #000000;
-  margin: 0px auto;
-  margin-top: 25px;
+  margin: 15px auto;
   width: 56px;
   height: 3px;
 }
 
 .border-dark__main {
   color: #000000;
-  margin-top: 25px;
   width: 56px;
   height: 3px;
 }
@@ -364,6 +362,7 @@ body {
   font-size: 19px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.9);
+  padding: 0px 70px 0px 50px;
 }
 
 .border-white {
@@ -381,11 +380,105 @@ body {
   position: absolute;
   top: 446px;
   left: -83px;
+  opacity: 0.6;
 }
 
 .bg_out {
   position: absolute;
   top: 185px;
   right: 430px;
+  opacity: 0.6;
+}
+
+.blog {
+  width: 1600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.blog-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  text-align: center;
+}
+
+.blog__items {
+  margin: 80px 0px;
+  display: -ms-grid;
+  display: grid;
+  gap: 35px;
+  position: relative;
+  -ms-grid-columns: (350px)[3];
+      grid-template-columns: repeat(3, 350px);
+}
+
+.blog__item {
+  background: #FFFFFF;
+  -webkit-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+          box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+
+.blog__item-img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.blog__item-title {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+  padding: 12px 62px 12px 32px;
+}
+
+.blog__item-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+  padding: 12px 72px 12px 32px;
+}
+
+.blog__btn-readmore {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ED;
+  background-color: white;
+  border: none;
+  margin: 20px 25px 25px 35px;
+}
+
+.blog__btn-viewall {
+  margin: 70px 450px;
+  border: 1.4px solid #458FF6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 55px;
+  width: 220px;
+  height: 55px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458FF6;
+}
+
+.blog-bg-big {
+  position: absolute;
+  width: 778.73px;
+  height: 557.4px;
+  right: 50px;
+  top: 90px;
+  opacity: 0.9;
+}
+
+.blog-bg-small {
+  position: absolute;
+  left: -35px;
+  top: 95px;
+  opacity: 0.9;
 }
 /*# sourceMappingURL=style.css.map */
