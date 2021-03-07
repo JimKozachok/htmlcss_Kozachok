@@ -23,7 +23,7 @@ body {
 
 .header {
   position: relative;
-  width: 1600px;
+  width: 1300px;
   margin: 0 auto;
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 .service {
-  width: 1600px;
+  width: 1300px;
   position: relative;
   margin: 0 auto;
   padding: 200px 0px;
@@ -207,7 +207,7 @@ body {
 }
 
 .main {
-  width: 1600px;
+  width: 1300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -300,7 +300,7 @@ body {
 }
 
 .testimonials {
-  width: 1600px;
+  width: 1300px;
   position: relative;
   margin: 0 auto;
   padding: 180px 0px;
@@ -387,9 +387,10 @@ body {
 }
 
 .blog {
-  width: 1600px;
+  width: 1300px;
   position: relative;
   margin: 0 auto;
+  padding: 200px 0px;
 }
 
 .blog-title {
@@ -448,7 +449,6 @@ body {
 }
 
 .blog__btn-viewall {
-  margin: 70px 450px;
   border: 1.4px solid #458FF6;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -460,21 +460,22 @@ body {
   font-size: 18px;
   line-height: 60px;
   color: #458FF6;
+  margin: 0px 450px;
 }
 
 .blog-bg-big {
   position: absolute;
   width: 778.73px;
   height: 557.4px;
-  right: 50px;
-  top: 90px;
+  right: -250px;
+  top: 250px;
   opacity: 0.9;
 }
 
 .blog-bg-small {
   position: absolute;
-  left: -35px;
-  top: 95px;
+  left: -50px;
+  top: 300px;
   opacity: 0.9;
 }
 /*# sourceMappingURL=style.css.map */

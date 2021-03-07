@@ -18,7 +18,7 @@ body{
 }
 .header{
     position: relative;
-    width: 1600px;
+    width: 1300px;
     margin: 0 auto;
     &__inner{
         display: flex;
@@ -84,7 +84,7 @@ body{
     height: 60px;
 }
 .service{
-    width: 1600px;
+    width: 1300px;
     position: relative;
     margin: 0 auto;
     padding: 200px 0px;
@@ -159,7 +159,7 @@ body{
     margin: 70px 500px
     }
 .main {
-    width: 1600px;
+    width: 1300px;
     display: flex;
     position: relative;
     margin: 0 auto;
@@ -232,7 +232,7 @@ width :665px;
 height :434px;
 }
 .testimonials{
-    width: 1600px;
+    width: 1300px;
     position: relative;
     margin: 0 auto;
     padding:180px 0px ;
@@ -302,9 +302,10 @@ height :434px;
 }
 
 .blog{
-    width: 1600px;
+    width: 1300px;
     position: relative;
     margin: 0 auto;
+    padding: 200px 0px;
     &-title{
         font-weight: bold;
         font-size: 36px;
@@ -352,7 +353,6 @@ height :434px;
     margin: 20px 25px 25px 35px;
 }
 .blog__btn-viewall{
-    margin: 70px 450px;
     border: 1.4px solid #458FF6;
     box-sizing: border-box;
     border-radius: 55px;
@@ -363,18 +363,19 @@ height :434px;
     font-size: 18px;
     line-height: 60px;
     color: #458FF6;
+    margin: 0px 450px;
 }
 .blog-bg-big{
     position: absolute;
     width: 778.73px;
     height: 557.4px;
-    right: 50px;;
-    top: 90px;
+    right: -250px;
+    top: 250px;
     opacity: 0.9;
 }
 .blog-bg-small{
     position: absolute;
-    left: -35px;
-    top: 95px;
+    left: -50px;
+    top: 300px;
     opacity: 0.9;
 }
