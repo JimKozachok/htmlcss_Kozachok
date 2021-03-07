@@ -232,7 +232,6 @@ width :665px;
 height :434px;
 }
 .testimonials{
-    flex-direction: row;
     width: 1600px;
     position: relative;
     margin: 0 auto;
@@ -250,23 +249,22 @@ height :434px;
             font-weight: bold;
             font-size: 36px;
             line-height: 48px;
-            text-align: center;
-            justify-content: space-between;          
+            text-align: center;          
         }
     }   
 }
 .testimonials__photo{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .testimonials__about{
-        display: flex;
-        margin-right: 110px;
+        width: 100%;
             &-title{
                 font-weight: bold;
                 font-size: 22px;
                 line-height: 48px;
                 color: #FFFFFF;
-                margin-left:20px ;
             }
             &-text{
                 font-size: 18px;
@@ -277,7 +275,7 @@ height :434px;
             font-size: 19px;
             line-height: 30px;
             color: rgba(255, 255, 255, 0.9);
-            padding: 0px 70px 0px 50px;
+            width: 100%;
             }
         }
 .border-white{
@@ -288,6 +286,7 @@ height :434px;
 }
 .guy{
     border-radius: 100px;
+    margin-right: 40px;
 }
 .bg_in{
     position: absolute;
