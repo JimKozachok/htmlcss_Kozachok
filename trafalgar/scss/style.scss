@@ -306,7 +306,7 @@ height :434px;
     width: 1300px;
     position: relative;
     margin: 0 auto;
-    padding: 200px 0px;
+    padding: 150px 0px;
     &-title{
         font-weight: bold;
         font-size: 36px;
@@ -379,4 +379,86 @@ height :434px;
     left: -50px;
     top: 300px;
     opacity: 0.9;
+}
+.footer{
+    margin: 0 auto;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background-repeat: repeat-x;
+    position: relative;
+    &__inner{
+        padding: 90px 0px 90px 0px;
+        display: flex;
+    }
+    &__left{
+        color: #FFFFFF;
+        margin-right: 110px;
+        &-title{
+            display: flex;
+        }
+        &-t{
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 33px;
+            color: #5B9BF3;
+            background-color: white;
+            border-radius: 100px;
+            width: 41px;
+            height: 41px;
+            text-align: center;
+            padding: 5px;
+            margin-right:20px;
+        }
+        &-trafalgar{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 45px;
+            color: #FFFFFF;
+        }
+        &-text{
+            margin: 20px 0px;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+        &-rights{
+            margin: 35px 0px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+       
+    }
+}
+.footer_right{
+    display: flex;
+    color: #FFFFFF;
+    width: 100%;
+    &_list{
+      margin-right: 50px;
+        &:last-child{
+        margin-right: 0px;
+        }
+    &-title{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 60px;
+        }
+    &-item{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 38px;
+        }
+    }
+}
+.footer_bg_in{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+}
+.footer_bg_out{
+    position: absolute;
+    bottom: 380px;
+    right: 0px;
 }
