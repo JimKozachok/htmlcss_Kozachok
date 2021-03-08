@@ -76,7 +76,6 @@ body{
     border-radius: 55px;    
     font-weight: bold;
     font-size: 18px;
-    line-height: 60px;
     align-items: center;
     color: #FFFFFF;
     mix-blend-mode: normal;
@@ -143,14 +142,13 @@ body{
         }
     .service__bg2{
         position: absolute;
-        right: 300px;
-        top: 570px;
+        right: -15px;
+        top: 715px;
         }
     }
 .menu__btn-lernmore {
     font-weight: bold;
     font-size: 18px;
-    line-height: 60px;
     color: #458FF6;
     border: 1.4px solid #458FF6;
     border-radius: 55px;
@@ -206,7 +204,6 @@ body{
     margin:40px 0px;
     font-weight: bold;
     font-size: 18px;
-    line-height: 60px;
     color: #458FF6;
     border: 1.4px solid #458FF6;
     box-sizing: border-box;
@@ -221,16 +218,16 @@ body{
 }
 .main__bg{
     position: absolute;
-    right: 200px;
-    top: 550px;
+    right: -180px;
+    top: 580px;
 }
 .picture2{
-width:650px;
-height:477px;
+    width:650px;
+    height:477px;
 }
 .picture3{
-width :665px;
-height :434px;
+    width :665px;
+    height :434px;
 }
 .testimonials{
     width: 1300px;
@@ -260,25 +257,25 @@ height :434px;
     align-items: center;
 }
 .testimonials__about{
+    width: 100%;
+        &-title{
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 48px;
+            color: #FFFFFF;
+            }
+        &-text{
+            font-size: 18px;
+            line-height: 48px;
+            color: rgba(255, 255, 255, 0.85);
+            }
+        &-story{
+        font-size: 19px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.9);
         width: 100%;
-            &-title{
-                font-weight: bold;
-                font-size: 22px;
-                line-height: 48px;
-                color: #FFFFFF;
-            }
-            &-text{
-                font-size: 18px;
-                line-height: 48px;
-                color: rgba(255, 255, 255, 0.85);
-            }
-            &-story{
-            font-size: 19px;
-            line-height: 30px;
-            color: rgba(255, 255, 255, 0.9);
-            width: 100%;
-            }
         }
+    }
 .border-white{
     margin: 25px auto;
     color: white;
@@ -291,14 +288,14 @@ height :434px;
 }
 .bg_in{
     position: absolute;
-    top: 446px;
-    left: -83px;
+    top: 450px;
+    left: -65px;
     opacity: 0.6;
 }
 .bg_out{
     position: absolute;
     top: 185px;
-    right: 430px;
+    right: 130px;
     opacity: 0.6;
 }
 
@@ -347,7 +344,6 @@ height :434px;
 .blog__btn-readmore{
     font-weight: 600;
     font-size: 17px;
-    line-height: 28px;
     color: #4089ED;
     background-color: white;
     border: none;
@@ -362,7 +358,6 @@ height :434px;
     background-color: white;
     font-weight: bold;
     font-size: 18px;
-    line-height: 60px;
     color: #458FF6;
     margin: 0px 450px;
 }
@@ -381,9 +376,9 @@ height :434px;
     opacity: 0.9;
 }
 .footer{
+    width: 1600px;
     margin: 0 auto;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-    background-repeat: repeat-x;
     position: relative;
     &__inner{
         padding: 90px 0px 90px 0px;
@@ -454,11 +449,11 @@ height :434px;
 }
 .footer_bg_in{
     position: absolute;
-    bottom: 10px;
-    left: 0px;
+    bottom: -10px;
+    left: -25px;
 }
 .footer_bg_out{
     position: absolute;
     bottom: 380px;
-    right: 0px;
+    right: 50px;
 }
