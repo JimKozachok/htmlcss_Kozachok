@@ -8,13 +8,13 @@ var c;
 
 document.write("Переменная х равна = " + a + " , а переменная у =" + b + '<br>');
 
-var c = a;
+c = a;
 console.log(" Значение для c = a: " + c);
 
-var a = b;
+a = b;
 console.log(" Значение для a = b: " + a);
 
-var b = c;
+b = c;
 console.log(" Значение для b = c: " + b);
 
 document.write("Переменная х равна = " + a + " , а переменная у =" + b + '<br>');

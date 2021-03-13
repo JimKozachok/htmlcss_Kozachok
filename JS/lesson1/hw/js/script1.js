@@ -16,15 +16,6 @@ console.log("k = (y1 - y2) / (x1 - x2). значение k = " + k);
 var b = y2 - (k * x2);
 console.log("b = y2 - k*x2. значение b = " + b);
 
-var y1 = (k * x1) + b;
-console.log("y = kx + b. значение y = " + y);
-
-var y1 = (k * x2) + b;
-console.log("y = kx + b. значение y = " + y);
-
-var y2 = (k * x1) + b;
-console.log("y = kx + b. значение y = " + y);
-
-var y2 = (k * x2) + b;
+var y = (k * x) + b;
 console.log("y = kx + b. значение y = " + y);
 
